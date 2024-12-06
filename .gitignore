@@ -1,0 +1,11 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/build
+/dist
+.env
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/public/localnet-config.toml

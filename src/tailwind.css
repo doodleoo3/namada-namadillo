@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray;
+}
+
+.dark-scrollbar {
+  @apply pr-2;
+}
+
+.dark-scrollbar::-webkit-scrollbar {
+  @apply w-1;
+}
+
+.dark-scrollbar::-webkit-scrollbar-track {
+  @apply bg-black;
+}
+
+.dark-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-neutral-300/90 rounded-md transition-colors duration-300 ease-out;
+}
+
+.custom-container {
+  @apply block w-full max-w-[1920px] sm:px-6 mx-auto relative;
+}
+
+@keyframes backgroundHover {
+  0% {
+    background-position: 0% 0%;
+    opacity: 0;
+  }
+  100% {
+    background-position: 0% 20%;
+    opacity: 1;
+  }
+}

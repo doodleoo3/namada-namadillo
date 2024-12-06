@@ -1,0 +1,5 @@
+# Uncomment the following lines to define your default indexer and rpc urls
+#indexer_url = ""
+#rpc_url = ""
+#masp_indexer_url = ""
+#localnet_enabled = false

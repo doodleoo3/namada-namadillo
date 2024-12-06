@@ -1,0 +1,7 @@
+[
+  {
+    "alias": "Namada Chain Registry",
+    "url": "https://raw.githubusercontent.com/anoma/namada-chain-registry/refs/heads/main/",
+    "proxyPort": 8010
+  }
+]
